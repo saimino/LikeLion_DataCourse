@@ -5,5 +5,5 @@
 
 ## 데이터 수집을 위한 HTML 복습
    01 title[source code](https://github.com/YoonJinhoon/LikeLion_13th_DataCourse/blob/main/02_html.html)
-      02 haed
+      02 haed[이동](https://saimino.github.io/LikeLion_DataCourse/)
       03 body 

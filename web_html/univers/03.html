@@ -1,22 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="kr">
 <head>
   <meta charset="UTF-8">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta content="width=device-width,initial-scale=1" name="viewport">
   <meta content="description" name="description">
   <meta name="google" content="notranslate" />
   <meta content="Mashup templates have been developped by Orson.io team" name="author">
-
-  <!-- Disable tap highlight on IE -->
-  <meta name="msapplication-tap-highlight" content="no">
-
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
   <link href="./assets/favicon.ico" rel="icon">
-
-  <title>Title page</title>
- <style>
+  <title>자기소개 페이지</title>
+<link href="./main.3f6952e4.css" rel="stylesheet">
+  <link rel="stylesheet" href="main.3f6952e4.css">
+     <style>
 
         div.gallery {
             margin : 5px;
@@ -34,24 +29,18 @@
         }
 
     </style>
-<link href="./main.3f6952e4.css" rel="stylesheet"></head>
+</head>
 
-<body class="">
+
+<body class="minimal">
 <div id="site-border-left"></div>
 <div id="site-border-right"></div>
 <div id="site-border-top"></div>
 <div id="site-border-bottom"></div>
- <!-- Add your content of header -->
+<!-- Add your content of header -->
 <header>
-  <nav class="navbar  navbar-fixed-top navbar-default">
+  <nav class="navbar  navbar-fixed-top navbar-inverse">
     <div class="container">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-
       <div class="collapse navbar-collapse" id="navbar-collapse">
         <ul class="nav navbar-nav ">
           <li><a href="./index.html" title="">01 : Home</a></li>
@@ -62,15 +51,23 @@
     </div>
   </nav>
 </header>
-
-<div class="section-container">
+<!-- Add your site or app content here -->
+  <div class="hero-full-container background-image-container white-text-container" style="background-image: url('./assets/images/a.jpg')">
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <div class="section-container-spacer text-center">
-            <h1 class="h2">03 : Gallery</h1>
+          <div class="hero-full-wrapper">
+            <div class="text-content">
+              <h2>
+                <span id="typed-strings">
+                  <span>03 : Gallery</span>
+                  <span>03 : Gallery</span>
+                </span>
+                <span id="typed">
+                </span>
+              </h2>
+                <div class="section-container">
           </div>
-
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
               <div class="row">
@@ -95,12 +92,6 @@
                       <div class="desc">냥이</div>
                   </div>
                  </div>
-                  <div class="gallery">
-                      <a target="_blank" href="../004.gif">
-                      <img src="../004.gif" width="300" height="200">
-                      </a>
-                      <div class="desc">냥이</div>
-                  </div>
 
                 </div>
               </div>
@@ -112,4 +103,21 @@
       </div>
     </div>
   </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+     type();
+     movingBackgroundImage();
+  });
+</script>
+
+
+<script type="text/javascript" src="./main.70a66962.js"></script></body>
+
 </html>

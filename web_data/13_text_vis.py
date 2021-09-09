@@ -20,5 +20,6 @@ import matplotlib.pyplot as plt
 
 plt.figure(figsize=(12,12))
 plt.imshow(wcloud, interpolation = "bilinear")
+plt.savefig( 'myfig.png' )
 plt.axis("off")
 plt.show()

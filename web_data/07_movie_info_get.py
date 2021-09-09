@@ -1,48 +1,76 @@
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 
-# url 정보
-# tag, id, class 정보
-
+#웹 페이지 소스 가져오기 및 파싱
 url = "https://movie.naver.com/movie/running/current.naver"
 page = urlopen(url)
 soup = BeautifulSoup(page, 'lxml')
 print(soup.title)
 
-# 제목 - 하나 성공
-tit_data = soup.find("dt", class_="tit").find("a").text
-print(tit_data)
+### 상영작/예정작 제목만 뽑기
+soup_ul_li = soup.find("ul", class_='lst_detail_t1').find_all("li")
+print( len(soup_ul_li) )
+print( soup_ul_li[122].find("dt", class_="tit").a.text  )
 
-# 제목 - 하나 성공
-# tit_all_data = soup.find_all("dt", class_="tit")
-#
-# list_all = []
-# for one in tit_all_data:
-#     title_one = one.find("a").text
-#     list_all.append(title_one)
-# print(len(list_all), list_all)
+### 평점
+print( soup_ul_li[4].find("span", class_="num").text )
 
-## 평점 점수 가져오기
-##
-# score_all = soup.find_all("span", class_='num')
-# print(score_all[1].text)
+### 참여명수
+print( soup_ul_li[122].find("em").text )
 
+### 예매율
+#print(soup_ul_li[122].find("dl", class_="info_exp").span.text)
+temp = soup_ul_li[122].find("dl", class_="info_exp")
+if temp is not None:
+    t = temp.span.text
+    print("값이 있음", t)
+else:
+    t = 0
+    print("값이 없음", t)
 
-score_all = soup.find_all("div", class_='star_t1')
-score_all_all =[]
-for i in score_all:
-    score_all_all.append(i.find("span",class_='num').text)
+## 개요
+txt = soup_ul_li[0].find("span", class_="link_txt").text
+txt_last = txt.replace("\n", "")
+txt_last = txt_last.replace("\t", "")
+txt_last = txt_last.replace("\r", "")
+print( txt_last )
 
-print(score_all_all)
+#제목, 평점, 참여수, 개요
+all_title = []
+all_score = []
+all_people = []
+all_rate =[]
+all_category = []
 
-# 예매율 정보 가져와보기
-rate_tmp = soup.find_all("dl", class_='info_exp')
-# print( score_all[2].find("span", class_='num').text )
+for one in soup_ul_li:
+    title = one.find("dt", class_="tit").a.text
+    score = one.find("span", class_="num").text
+    num_people = one.find("em").text
 
-rate_all_all = []
-for one in rate_tmp:
-    one_rate = one.find("span", class_='num').text
-    # print(one_score)
-    rate_all_all.append(one_rate)
+    #예매율
+    tmp = one.find("dl", class_="info_exp")
+    if tmp is not None:
+        rate = tmp.span.text
+    else:
+        rate = 0
 
-print(rate_all_all)
+    category = one.find("span", class_="link_txt").text
+    txt_last = category.replace("\n", "")
+    txt_last = txt_last.replace("\t", "")
+    txt_last = txt_last.replace("\r", "")
+
+    all_title.append(title)
+    all_score.append(score)
+    all_people.append(num_people)
+    all_rate.append(rate)
+    all_category.append(txt_last)
+print(len(all_title), len(all_score), len(all_people), len(all_rate), len(all_category))
+
+## 저장을 위한 csv, xlsx파일 만들기
+import pandas as pd
+dat_dict = {
+    "제목":all_title, "평점":all_score, "참여명수":all_people,
+    "예매율":all_rate, "개요":all_category }
+dat = pd.DataFrame(dat_dict)
+dat.to_csv("네이버영화.csv", index=False)
+dat.to_excel("네이버영화.xlsx", index=False)

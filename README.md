@@ -1,7 +1,9 @@
 # LikeLion_13th_DataCourse
 멋사 13회차 프로젝트 정리 및 발표
 
-<summary>## 웹의 이해 및 HTML 기본 실습
+<summary## 웹의 이해 및 HTML 기본 실습 </summary>
+<div markdown="1">
+
   + HTML 기본 이해
     - 01 title tag [link](https://github.com/saimino/LikeLion_DataCourse/web_html/01_html_title.html)
     - 02 body, p tag [link](https://saimino.github.io/LikeLion_DataCourse/web_html/02_html_body.html)
@@ -11,18 +13,9 @@
   + CSS 기본 이해
     - Toy Project - 나의 갤러리[link](https://saimino.github.io/LikeLion_13th_DataCourse/02_css_gallery/15_my_gallery.html) [code](https://github.com/saimino/LikeLion_13th_DataCourse/blob/main/02_css_gallery/15_my_gallery.html)
 
-</summary>
-<details>
-<summary>상세 내용 확인</summary>
-<div markdown="1">
-
-div 에 markdown attribute 를 1 로 
-하는 이유는 div 안에서
-markdown 을 사용하기 위해서 입니다.
-
-
 </div>
 </details>
+
 
 
 ## 나의 웹페이지 만들기 실습(...)

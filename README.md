@@ -16,7 +16,7 @@
     - Toy Project - 나의 갤러리[link](https://saimino.github.io/LikeLion_13th_DataCourse/02_css_gallery/15_my_gallery.html) [code](https://github.com/saimino/LikeLion_13th_DataCourse/blob/main/02_css_gallery/15_my_gallery.html)
 
 </div>
-
+ </details>
 
 
 
@@ -49,4 +49,4 @@
   </div>
 </details>
   
-  </details>
+ 

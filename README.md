@@ -30,8 +30,9 @@
     - my03 [link](https://github.com/saimino/LikeLion_DataCourse/blob/main/01_web_html/%EA%B9%80%EB%B2%94%EC%A4%91_homepage/my03.html)
     - my_gallery [link](https://github.com/saimino/LikeLion_DataCourse/blob/main/01_web_html/my_web/15_my_gallery.html)
 
-  </details>
+  
   </div>
+  </details>
   
 ## 크롤링 연습
 <details>
@@ -42,5 +43,6 @@
   + 영화 댓글 크롤링 연습
     - 코다 댓글을 파일로 만들기 [code](https://github.com/saimino/LikeLion_DataCourse/blob/main/codeclass/2021.09.09/kbj_wordcloud/14_movie.py)
     - 코다 댓글을 wordcloud를 이용해 시각화하기 [code](https://github.com/saimino/LikeLion_DataCourse/blob/main/codeclass/2021.09.09/kbj_wordcloud/14_movie_vis.py) [이미지](https://github.com/saimino/LikeLion_DataCourse/blob/main/codeclass/2021.09.09/kbj_wordcloud/myfig2.png)
-  </details>
+  
   </div>
+</details>

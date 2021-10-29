@@ -24,6 +24,7 @@
 <details>
 <summary></summary>
 <div markdown="1">
+  
   + main [link](https://github.com/saimino/LikeLion_DataCourse/blob/main/01_web_html/%EA%B9%80%EB%B2%94%EC%A4%91_homepage/main.html) [web](https://saimino.github.io/LikeLion_DataCourse/01_web_html/my_web/main.html)
       - my01 [link](https://github.com/saimino/LikeLion_DataCourse/blob/main/01_web_html/%EA%B9%80%EB%B2%94%EC%A4%91_homepage/my01.html)
       - my02 [link](https://github.com/saimino/LikeLion_DataCourse/blob/main/01_web_html/%EA%B9%80%EB%B2%94%EC%A4%91_homepage/my02.html)
@@ -38,6 +39,7 @@
 <details>
 <summary></summary>
 <div markdown="1">
+  
     + 코스닥 정보 크롤링 연습
       - 네이버 금융 코스닥 크롤링 [link](https://github.com/saimino/LikeLion_DataCourse/blob/main/codeclass/2021.09.08/05_stack_get.py)
     + 영화 댓글 크롤링 연습

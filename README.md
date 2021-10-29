@@ -3,6 +3,18 @@
 
 
 
+## 지역별 전기차 적합지수 (+정부의 지역간 전기차 충전기 정책평가)
+  전기차 데이터를 이용한 프로젝트
+<details>
+<summary></summary>
+  <div markdown="1">
+    
+
+
+  </div>
+</details>
+
+
 
 ## 크롤링 연습
 <details>

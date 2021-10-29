@@ -36,16 +36,15 @@
 </details>
   
 ## 크롤링 연습
-
 <details>
 <summary></summary>
 <div markdown="1">
-  
-    + 코스닥 정보 크롤링 연습
-      - 네이버 금융 코스닥 크롤링 [link](https://github.com/saimino/LikeLion_DataCourse/blob/main/codeclass/2021.09.08/05_stack_get.py)
-    + 영화 댓글 크롤링 연습
-      - 코다 댓글을 파일로 만들기 [code](https://github.com/saimino/LikeLion_DataCourse/blob/main/codeclass/2021.09.09/kbj_wordcloud/14_movie.py)
-      - 코다 댓글을 wordcloud를 이용해 시각화하기 [code](https://github.com/saimino/LikeLion_DataCourse/blob/main/codeclass/2021.09.09/kbj_wordcloud/14_movie_vis.py) [이미지](https://github.com/saimino/LikeLion_DataCourse/blob/main/codeclass/2021.09.09/kbj_wordcloud/myfig2.png)
+
+  + 코스닥 정보 크롤링 연습
+    - 네이버 금융 코스닥 크롤링 [link](https://github.com/saimino/LikeLion_DataCourse/blob/main/codeclass/2021.09.08/05_stack_get.py)
+  + 영화 댓글 크롤링 연습
+    - 코다 댓글을 파일로 만들기 [code](https://github.com/saimino/LikeLion_DataCourse/blob/main/codeclass/2021.09.09/kbj_wordcloud/14_movie.py)
+    - 코다 댓글을 wordcloud를 이용해 시각화하기 [code](https://github.com/saimino/LikeLion_DataCourse/blob/main/codeclass/2021.09.09/kbj_wordcloud/14_movie_vis.py) [이미지](https://github.com/saimino/LikeLion_DataCourse/blob/main/codeclass/2021.09.09/kbj_wordcloud/myfig2.png)
 
 </div>
 </details>

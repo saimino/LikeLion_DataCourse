@@ -36,6 +36,7 @@
 </details>
   
 ## 크롤링 연습
+
 <details>
 <summary></summary>
 <div markdown="1">
@@ -46,7 +47,7 @@
       - 코다 댓글을 파일로 만들기 [code](https://github.com/saimino/LikeLion_DataCourse/blob/main/codeclass/2021.09.09/kbj_wordcloud/14_movie.py)
       - 코다 댓글을 wordcloud를 이용해 시각화하기 [code](https://github.com/saimino/LikeLion_DataCourse/blob/main/codeclass/2021.09.09/kbj_wordcloud/14_movie_vis.py) [이미지](https://github.com/saimino/LikeLion_DataCourse/blob/main/codeclass/2021.09.09/kbj_wordcloud/myfig2.png)
 
-  </div>
+</div>
 </details>
   
  

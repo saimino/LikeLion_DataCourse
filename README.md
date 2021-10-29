@@ -1,7 +1,7 @@
 # LikeLion_13th_DataCourse
 멋사 13회차 프로젝트 정리 및 발표
 
-<div markdown="1">## 웹의 이해 및 HTML 기본 실습
+<summary>## 웹의 이해 및 HTML 기본 실습
   + HTML 기본 이해
     - 01 title tag [link](https://github.com/saimino/LikeLion_DataCourse/web_html/01_html_title.html)
     - 02 body, p tag [link](https://saimino.github.io/LikeLion_DataCourse/web_html/02_html_body.html)
@@ -11,7 +11,7 @@
   + CSS 기본 이해
     - Toy Project - 나의 갤러리[link](https://saimino.github.io/LikeLion_13th_DataCourse/02_css_gallery/15_my_gallery.html) [code](https://github.com/saimino/LikeLion_13th_DataCourse/blob/main/02_css_gallery/15_my_gallery.html)
 
-</div>
+</summary>
 ## 나의 웹페이지 만들기 실습(...)
 
  + main [link](https://github.com/saimino/LikeLion_DataCourse/blob/main/01_web_html/%EA%B9%80%EB%B2%94%EC%A4%91_homepage/main.html) [web](https://saimino.github.io/LikeLion_DataCourse/01_web_html/my_web/main.html)

@@ -1,5 +1,5 @@
 # LikeLion_13th_DataCourse
-멋사 13회차 프로젝트 정리 및 발표
+멋사 데이터사이언스 코드 및 정리한 곳입니다.
 
 ## 웹의 이해 및 HTML 기본 실습
 <details>

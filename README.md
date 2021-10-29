@@ -24,7 +24,7 @@
 <details>
 <summary></summary>
 <div markdown="1">
-    + main [link](https://github.com/saimino/LikeLion_DataCourse/blob/main/01_web_html/%EA%B9%80%EB%B2%94%EC%A4%91_homepage/main.html) [web](https://saimino.github.io/LikeLion_DataCourse/01_web_html/my_web/main.html)
+  + main [link](https://github.com/saimino/LikeLion_DataCourse/blob/main/01_web_html/%EA%B9%80%EB%B2%94%EC%A4%91_homepage/main.html) [web](https://saimino.github.io/LikeLion_DataCourse/01_web_html/my_web/main.html)
       - my01 [link](https://github.com/saimino/LikeLion_DataCourse/blob/main/01_web_html/%EA%B9%80%EB%B2%94%EC%A4%91_homepage/my01.html)
       - my02 [link](https://github.com/saimino/LikeLion_DataCourse/blob/main/01_web_html/%EA%B9%80%EB%B2%94%EC%A4%91_homepage/my02.html)
       - my03 [link](https://github.com/saimino/LikeLion_DataCourse/blob/main/01_web_html/%EA%B9%80%EB%B2%94%EC%A4%91_homepage/my03.html)

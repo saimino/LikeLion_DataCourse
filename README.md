@@ -10,7 +10,39 @@
 <details>
 <summary></summary>
   <div markdown="1">
-    
+    팀프로젝트1 [상세내용]
+주제 : 코로나19에 따른 생활 양상 변화
+목표 : 웹 크롤링과 데이터 활용을 통한 데이터 처리 능력 향상
+기간 : 2021.09.17 ~ 10.08 (3주)
+역할 : 팀장 📢
+활용 기술(Python) 🔧
+웹 크롤링 : selenium, beautifulsoup
+데이터 전처리 : pandas, numpy
+데이터 시각화 : matplotlib, plotly, cufflinks
+발표 자료 📊 [PDF]
+전체 팀 발표 자료 모음 [link]
+팀프로젝트2 [상세내용]
+대회 : Dacon 가스공급량 수요예측 모델개발 [대회링크]
+주제 : 2019년 1-3월 가스공급량 예측
+목표 : 웹 크롤링과 데이터 전처리, 머신러닝에 대한 이해, 기술 활용 능력 향상
+기간 : 2021.10.15 ~ 2021.12.10
+역할 : 부팀장 📢
+활용 기술(Python) 🔧
+웹 크롤링 : beautifulsoup, selenium
+데이터 전처리 : pandas, numpy, robustscaler
+데이터 확인 및 분석(EDA) : matplotlib, seaborn, korean_Lunar_calendar(음력변환)
+특성 엔지니어링 : PolynomialFeatures, SelectPercentile
+머신러닝 모델(회귀) : Linear, Lasso, Ridge, RandomForest, Xgboost, Catboost, Lightgbm
+머신러닝 라이브러리 : Pycaret
+교차검증 : Kfold(shuffle)
+평가지표 : NMAE(대회 평가지표), MSE, RMSE, MAE, MAPE, R2
+발표 자료 📊 [Notion]
+전체 팀 발표 자료 모음 [link]
+성과
+🥇 13회차 교육 코스 내 최고의 팀 프로젝트 선정
+✨ Dacon 대회(public) : 42등(총 259팀) 기록(0.1030211538점. 2021-12-05 13:54:10.)
+✨ 최고 점수(private) : 22등(총 259팀) 기록(0.10208606점. 2021-12-10 10:48:55.)
+결과 점수 모음 표 [PAGE]
 
 
   </div>

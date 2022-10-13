@@ -44,11 +44,11 @@
 </details>
   
  
- 
+<!--  
 ## 웹의 이해 및 HTML 기본
 <details>
 <summary></summary>
-<div markdown="1">
+<div markdown="1"> -->
 
 <!--   + HTML 기본 이해
     - title tag [link](https://github.com/saimino/LikeLion_DataCourse/web_html/01_html_title.html)

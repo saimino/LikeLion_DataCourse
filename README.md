@@ -8,7 +8,7 @@
     
   
 <details>
-<summary></summary>
+<!-- <summary></summary> -->
   <div markdown="1">
 
   </div>
@@ -51,13 +51,13 @@
 <summary></summary>
 <div markdown="1">
 
-  + HTML 기본 이해
+<!--   + HTML 기본 이해
     - title tag [link](https://github.com/saimino/LikeLion_DataCourse/web_html/01_html_title.html)
     - body, p tag [link](https://saimino.github.io/LikeLion_DataCourse/project/korea_charger.html)
     - a, img tag [link](https://github.com/saimino/LikeLion_DataCourse/blob/main/web_html/03_html_link_img.html)
     - div, span, ul, ol, li tag [link](https://github.com/saimino/LikeLion_13th_DataCourse/blob/main/web_html/04_html_div_span.html)
     - summary(background, text color, tooltip, h1-h6 tag) [link](https://github.com/kbjung/LikeLion_DataCourse/blob/main/web_html/05_html_summary.html)
   + CSS 기본 이해
-    - 나의 갤러리[link](https://saimino.github.io/LikeLion_13th_DataCourse/02_css_gallery/15_my_gallery.html) [code](https://github.com/saimino/LikeLion_13th_DataCourse/blob/main/02_css_gallery/15_my_gallery.html)
+    - 나의 갤러리[link](https://saimino.github.io/LikeLion_13th_DataCourse/02_css_gallery/15_my_gallery.html) [code](https://github.com/saimino/LikeLion_13th_DataCourse/blob/main/02_css_gallery/15_my_gallery.html) -->
 </div>
 </details>
